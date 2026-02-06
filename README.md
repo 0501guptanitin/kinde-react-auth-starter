@@ -49,7 +49,7 @@ VITE_KINDE_LOGOUT_REDIRECT_URI=http://localhost:5173
 📌 Get these values from  
 **Kinde Dashboard → Settings → Applications**
 
-🔗 App setup docs: https://docs.kinde.com/developer-tools/sdks/react-sdk/
+🔗 App setup docs: https://docs.kinde.com/developer-tools/sdks/frontend/react-sdk/
 
 ---
 
@@ -78,7 +78,7 @@ This context:
 - Shows a loader while auth initializes
 
 🔗 Context usage reference:  
-https://docs.kinde.com/developer-tools/sdks/react-sdk/#using-the-sdk
+https://docs.kinde.com/developer-tools/sdks/frontend/react-sdk/#using-the-sdk
 
 ### `AuthContext.tsx`
 
