@@ -1,4 +1,4 @@
-# 🚀 Kinde Authentication Guide
+# 🚀 Kinde Authentication (React Only – Full Guide)
 
 This guide explains how to integrate **Kinde Authentication** in a **React (Vite + TypeScript)** application using **React Context API** and a custom hook — **no backend or APIs required**.
 
@@ -76,9 +76,6 @@ This context:
 - Stores authentication state
 - Exposes login, register, logout methods
 - Shows a loader while auth initializes
-
-🔗 Context usage reference:  
-https://docs.kinde.com/developer-tools/sdks/frontend/react-sdk/#using-the-sdk
 
 ### `AuthContext.tsx`
 
@@ -171,9 +168,6 @@ export const useAuth = () => {
   return context;
 };
 ```
-
-🔗 Hook reference: https://docs.kinde.com/developer-tools/sdks/react-sdk/#hooks
-
 ---
 
 ## 🧩 6. Wrap App with Provider
@@ -240,7 +234,7 @@ Enable from Kinde Dashboard:
   - Apple
 
 🔗 Social login docs:  
-https://docs.kinde.com/authentication/social-logins/
+https://docs.kinde.com/authenticate/social-sign-in/add-social-sign-in/
 
 ---
 
@@ -253,7 +247,7 @@ Kinde provides a built-in password reset flow.
 - Password reset handled securely by Kinde
 
 🔗 Password reset docs:  
-https://docs.kinde.com/authentication/passwords/
+https://docs.kinde.com/manage-users/access-control/reset-user-password/
 
 ---
 
@@ -270,12 +264,12 @@ Customizable items:
 - Light / Dark mode
 
 Steps:
-- **Dashboard → Branding**
+- **Design → Global → Brand**
 - Update styles
 - Save & preview instantly
 
 🔗 Branding docs:  
-https://docs.kinde.com/branding/
+https://docs.kinde.com/design/brand/global-brand-defaults/
 
 ---
 
@@ -292,11 +286,10 @@ https://docs.kinde.com/branding/
 
 ## 📚 Useful Documentation Links
 
-- React SDK: https://docs.kinde.com/developer-tools/sdks/react-sdk/
-- Authentication overview: https://docs.kinde.com/authentication/
-- User profiles: https://docs.kinde.com/users/
-- Tokens & sessions: https://docs.kinde.com/authentication/tokens/
-- Security & compliance: https://docs.kinde.com/security/
+- React SDK: https://docs.kinde.com/developer-tools/sdks/frontend/react-sdk/
+- Authentication overview: https://docs.kinde.com/authenticate/about-auth/about-authentication/
+- User profiles: https://docs.kinde.com/manage-users/about/
+- Security & compliance: https://docs.kinde.com/trust-center/security/security-at-kinde/
 
 ---
 
